@@ -1,0 +1,27 @@
+/* pages/order/order.wxss */
+.item-image{
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 10rpx;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: gray;
+  height: 100rpx;
+  border: 1rpx solid gainsboro;
+  border-radius: 20rpx;
+  box-shadow:0px 1px 0px 0px gray;
+
+}
+.dd{
+  
+  margin: 20rpx;
+}
+
+
+.item-text{
+  margin-left: 10rpx;
+}

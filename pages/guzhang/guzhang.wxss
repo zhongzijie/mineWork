@@ -1,0 +1,79 @@
+/* pages/guzhang/guzhang.wxss */
+.textarea-list{
+   border:1px gray solid;
+   /* margin: 30rpx; */
+   /* height: 100%; auto-height*/
+   height: 90rpx;
+   margin-top: 30rpx;
+   margin-left: 70rpx;  
+   border-radius:10px;
+}
+.img-item{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 0 auto;
+
+}
+.wl{
+  width: 180rpx;
+}
+
+.shangchuang-btn{
+  width: 80%;
+}
+.text-list{
+  font-size: 30rpx;
+  margin-top: 15rpx;
+}
+.shangchuang{
+  color: gray;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.imglist{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  justify-content: space-between;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  
+
+}
+.detail_item{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 300rpx;
+  padding: 20rpx 0;
+}
+.paipai{
+  width: 160rpx;
+  height: 160rpx;
+  background-color: white;
+}
+.paiview{
+  /* flex-flow: row wrap;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  justify-content: space-between;
+  margin-left: 50rpx;
+  margin-right: 50rpx; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 300rpx;
+  padding: 20rpx 0;
+   margin-left: 300rpx;
+   color: gray;
+ 
+}
+.text-paipai{
+  /* font-size: 30rpx;
+  margin-top: 15rpx; */
+  margin-left: 40rpx;
+ font-size: 30rpx;
+}

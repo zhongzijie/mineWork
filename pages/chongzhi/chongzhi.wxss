@@ -1,0 +1,10 @@
+/* pages/chongzhi/chongzhi.wxss */
+.container{
+
+  margin-top: 50rpx;
+  display: flex;
+}
+.dianjichongzhi{
+  width: 400rpx;
+  margin-top: 40rpx;
+}

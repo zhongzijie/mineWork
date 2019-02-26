@@ -1,0 +1,20 @@
+<!--pages/yuding/yuding.wxml-->
+
+<view class="list-item">
+      <image class="item-image"           src="/images/yudinglist.png"></image>
+      <text class="item-text">东方医院，柜号1003,门号4,床号733，密码348795</text>
+      <!-- <button class='tuiding' bindtap='tui'><text>退订</text></button> -->
+      <image src='/images/tuiding.png' class='tuiding'></image>
+
+    </view>
+
+    <view class="list-item ">
+      <image class="item-image"           src="/images/yudinglist.png"></image>
+      <text class="item-text">东方医院，柜号1004,门号5,床号743，密码348456</text>
+      <!-- <button class='tuiding' bindtap='tui'><text>退订</text></button> -->
+       <image src='/images/tuiding.png' class='tuiding'></image>
+    </view>
+
+    
+      <button bindtap='yudingBtn' class='btn'><text style=''>预定</text></button>
+    

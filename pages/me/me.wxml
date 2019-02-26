@@ -1,0 +1,88 @@
+<!--pages/me/me.wxml-->
+<view class="person-list">
+<view class="user"> 
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>    
+</view>
+
+<view class='first'>
+  <view class="list-item" bindtap='order'>
+    <image class="item-image" src='/images/order.png'></image>
+    <text>我的订单</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item" bindtap='qianbao'>
+    <image class="item-image" src="/images/qianbao.png"></image>
+    <text>我的钱包</text>
+  </view>
+</view>
+
+
+<view class='two other' bindtap='guzhang'>
+  <view class="list">
+    <image class="item-image" src='/images/baoxiu.png'></image>
+    <text>故障报修</text>
+  </view>
+  <image class="item-image" src='/images/jiantou.png'></image>
+</view>
+<view class='two' bindtap='didian'>
+ <view class="list">
+    <image class="item-image" src="/images/didian.png"></image>
+    <text>投放地点</text>
+  </view>
+  <image class="item-image" src='/images/jiantou.png'></image>
+</view>
+<view class='two' bindtap='aboutus'>
+ <view class="list">
+    <image class="item-image" src="/images/we.png"></image>
+    <text>关于我们</text>
+  </view>
+  <image class="item-image" src='/images/jiantou.png'></image>
+</view>
+
+</view>
+  <!-- <navigator open-type="navigate" url='/pages/order/order'>
+    <view class="list-item">
+      <image class="item-image" src="/images/order.png"></image>
+      <text class="item-text"  bindtap='order'>我的订单</text>
+    </view>
+    </navigator>
+    <view class="person-line"></view>
+    <navigator open-type="navigate" url='/pages/yuding/yuding'>
+    
+    <view class="list-item">
+      <image class="item-image"           src="/images/yuding.png"></image>
+      <text class="item-text" bindtap='yuding'>我的预定</text>
+    </view>
+    </navigator>
+    <view class="person-line"></view>
+    <navigator open-type="navigate" url='/pages/qianbao/qianbao'>
+    <view class="list-item" >
+      <image class="item-image" src="/images/qianbao.png"></image>
+      <text class="item-text" bindtap='qianbao'>我的钱包</text>
+    </view>
+    </navigator>
+    <view class="person-line"></view>
+    <navigator open-type="navigate" url='/pages/guzhang/guzhang'>
+    <view class="list-item">
+      <image class="item-image" src="/images/baoxiu.png"></image>
+      <text class="item-text" bindtap='guzhang'>故障报修</text>
+    </view>
+    </navigator>
+    <view class="person-line"></view>
+    <navigator open-type="navigate" url='/pages/didian/didian'>
+    <view class="list-item">
+      <image class="item-image" src="/images/didian.png"></image>
+      <text class="item-text" bindtap='didian'>投放地点</text>
+    </view>
+    </navigator>
+     <view class="person-line"></view>
+     <navigator open-type="navigate" url='/pages/we/we'>
+    <view class="list-item">
+      <image class="item-image" src="/images/we.png"></image>
+      <text class="item-text" bindtap='aboutus'>关于我们</text>
+    </view>
+    </navigator>
+      <view class="person-line"></view> -->
+  
+ 

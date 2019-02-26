@@ -1,0 +1,9 @@
+<!--pages/zhifuchenggong/zhifuchenggong.wxml-->
+<view class="container">
+
+ <image src='/images/zhifuchenggong.png' class='img'></image>
+ <text>支付成功</text>
+ <button class='queding' bindtap='queding'>确定</button>
+
+
+</view>

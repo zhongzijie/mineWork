@@ -1,0 +1,34 @@
+{
+  "pages":[  
+    
+    
+    "pages/index/index",
+    "pages/tishi/tishi",
+    "pages/me/me",
+    
+    "pages/yuding/yuding",
+    "pages/yajin/yajin",
+    "pages/guzhang/guzhang",
+    "pages/didian/didian",
+    "pages/we/we",
+    "pages/tuiding/tuiding",
+    "pages/chongzhi/chongzhi",
+    "pages/tuihuan/tuihuan",
+    "pages/kaishiyuding/kaishiyuding",
+    "pages/youhuijuan/youhuijuan",
+    "pages/zhifuchenggong/zhifuchenggong",
+    "pages/jishi/jishi",
+    "pages/yanzheng/yanzheng",
+    "pages/qianbao/qianbao",
+    "pages/zhifu/zhifu",
+    "pages/order/order",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3CA7BD",
+    "navigationBarTitleText": "康互科技",
+    "navigationBarTextStyle": "white"
+  }
+}

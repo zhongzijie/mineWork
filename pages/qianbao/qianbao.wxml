@@ -1,0 +1,41 @@
+<!--pages/qianbao/qianbao.wxml-->
+<!-- <view class='list-item'>
+<image src='/images/yue.png'  class='item-img'></image>
+<text class='item-text'>我的余额   300元</text>
+<!-- <button class='btn' bindtap='chongzhi'>充值</button> -->
+<!-- <image src='/images/chong.png' class='chong' bindtap='chongzhi'></image>
+</view> --> 
+<view  class='con'>
+<view  class='first'>
+     <view class='wen'>0.00</view>
+     <view class='wen'>总余额(元)</view>
+</view>
+
+<view class='list-item'>
+<view class='list' >
+    <image src='/images/yajin.png'  class='item-img'></image>
+    <text class='item-text'>我的押金   </text>
+</view>
+
+<view class='list'>
+<text class='yajinwenben'>{{wenben1}}</text>
+<button class='jiaonayajin' bindtap='yajin_btn'>{{wenben2}}</button>
+</view>
+<!-- <text>未缴纳押金不可以使用</text> {{deposit}}元-->
+<!-- <button class='btn' bindtap='tuihuai'>退还</button> -->
+<!-- <image src='/images/tui.png' class='tui' bindtap='tuikuan'></image> -->
+<!-- <image src='/images/jiantou.png'  class='jiantou' bindtap='jiantou'></image> -->
+
+</view>
+
+  <view class='list-item' bindtap='jiantou'>
+  <view class='list' >
+    <image src='/images/youhuiquan.png'  class='item-img'></image>
+    <text class='item-text'>我的优惠券</text>
+  </view>
+  <image src='/images/jiantou.png'  class='jiantou' ></image>
+  </view>
+
+  <button class='chongzhiyue'>充值</button>
+</view>
+

@@ -1,0 +1,6 @@
+/* pages/youhuijuan/youhuijuan.wxss */
+.text-youhuijuan{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  color: gray
+}

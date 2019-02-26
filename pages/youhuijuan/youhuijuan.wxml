@@ -1,0 +1,5 @@
+<!--pages/youhuijuan/youhuijuan.wxml-->
+<view class='container'>
+   <text class='text-youhuijuan'>暂无优惠券</text>
+</view>
+

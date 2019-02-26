@@ -1,0 +1,22 @@
+<!--pages/zhifu/zhifu.wxml-->
+<!-- <view class = "container"> -->
+<view>
+     <image src ="/images/daizhifu.png" class = "img"></image>
+</view>
+
+<view class='wenben'>待支付</view>
+<view>
+<view class='wenben1'>使用情况</view>
+<view class="person-line"></view>
+<view class='wenben1'>设备编号：15</view>
+<view class='wenben1'>租借时间：8/10/2018 08:45:34 PM</view>
+<view class='wenben1'>设备所在：北化医院综合楼9层</view>
+<view class='wenben1'>使用时长：9:30:23</view>
+<view class='wenben1'>待支付金额：10元</view>
+</view>
+
+<button class='zhifu' bindtap='zhifu'>支付</button>
+
+
+
+<!-- </view> -->

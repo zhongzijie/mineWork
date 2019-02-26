@@ -1,0 +1,7 @@
+<!--pages/tuiding/tuiding.wxml-->
+<view class='container'>
+   <view class='jiange'><text>退订时间段失败</text></view> 
+   <view class='jiange'><text>8月10日-8月15日</text></view>
+    <view class='jiange'><text>超过8个小时不能退订</text></view>
+    
+</view>

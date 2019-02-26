@@ -1,0 +1,22 @@
+<!--pages/kaishiyuding/kaishiyuding.wxml-->
+<view class="section__title">预定时间段：</view>
+<view class="section">  
+  <picker mode="date" value="{{date}}" start="1978-01-01" end="2019-1-23" bindchange="bindDateChange">  
+    <view class="picker">  
+       {{dates}}  
+    </view>  
+  </picker>  
+</view> 
+<text>--</text>
+<view class="section2">  
+  <picker mode="date" value="{{date}}" start="1978-01-01" end="2019-1-23" bindchange="bindDateChange2">  
+    <view class="picker">  
+       {{dates2}}  
+    </view>  
+  </picker>  
+</view>
+
+<view class="jieshu">共6天总共花48元</view>
+<button class='queding'>确定</button>
+
+

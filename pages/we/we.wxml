@@ -1,0 +1,13 @@
+<!--pages/we/we.wxml-->
+<view class="container">
+   <view class='box1'>
+    <image src="/images/logo1.png" class="lo"></image>
+   </view>
+
+   <view class='box2'>
+    <text class='text-item'>上海康互科技有限责任公司是一家专注医疗陪护系统的高科技公司，本公司为医疗系统提供最优质的服务...</text>
+   </view>
+    
+   
+   
+</view>

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="con">
+
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> 
+    <!-- <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> -->
+   </view>
+   <view class='box1'>
+    <image src="/images/logo.png" class="logo"></image>
+   </view> 
+   <!-- <view  class="box2">
+    <text>专注健康陪护的智能服务平台</text>
+   </view> -->
+  <!-- </view> -->
+   <!-- <view class='box2'>
+    <image src='/images/saoma.png' mode='widthFix' bindtap='saoma' class='saoyisao'></image>
+   </view> -->
+    
+    
+
+ 
+</view>
+<view class='box3'>
+    <image src='/images/tishi.png'  bindtap='tishi' class='img1'></image>
+     <image src='/images/saoma.png' mode='widthFix' bindtap='saoma' class='saoyisao'></image>
+    <image src='/images/me.png'  bindtap='me' class='img2'></image>
+</view>

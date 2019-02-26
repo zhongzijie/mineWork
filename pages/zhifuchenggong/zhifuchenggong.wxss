@@ -1,0 +1,19 @@
+/* pages/zhifuchenggong/zhifuchenggong.wxss */
+.container{
+  color: gray;
+  background-color:white;
+  
+
+}
+
+.queding{
+  color:white;
+  margin-top: 50rpx;
+  width: 350rpx;
+   background-color: #42A3DC;
+
+}
+.img{
+  width: 250rpx;
+  height: 250rpx;
+}

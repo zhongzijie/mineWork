@@ -1,0 +1,23 @@
+<!--pages/didian/didian.wxml-->
+<view class='select_box'>
+    <view class='select' catchtap='selectTap'>
+        <text class='select_text'>{{selectData[index]}}</text>
+        <image class='select_img {{show&&"select_img_rotate"}}' src='/images/gobottom.png'></image>         
+    </view>
+    <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+        <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+</view>
+<!-- <view class="phone_one" bindtap="clickPerson">
+  <view class="phone_personal">{{firstPerson}}</view>
+  <image src="../../image/v6.png" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image> 
+  </view>
+ 
+<view class="person_box">
+   <view class="phone_select" hidden="{{selectPerson}}">
+    <view class="select_one" bindtap="mySelect" data-me="东方医院">东方医院</view>
+    <view class="select_one" bindtap="mySelect" data-me="仁济医院">仁济医院</view>
+    <view class="select_one" bindtap="mySelect" data-me="华山医院">华山医院</view>
+  </view>
+ </view> -->
+

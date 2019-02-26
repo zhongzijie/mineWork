@@ -1,0 +1,8 @@
+/* pages/tuiding/tuiding.wxss */
+.jiange{
+
+  margin-top: 50rpx;
+}
+.container{
+  margin: 0 auto;
+}

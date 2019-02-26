@@ -1,0 +1,55 @@
+<!--pages/yanzheng/yanzheng.wxml-->
+<view class='renzheng'>
+<view class='shoujirenzheng'>
+  <image src='/images/yirenzhengshouji.png' class='shouji'></image>
+  <text class='wenben wenben1'>手机认证</text>
+</view>
+<!-- <image src='/images/renzhengjiantou.png' class='jiantou'></image> -->
+<view class='yanjinchongzhi'>
+  <image src='/images/weiyajin.png' class='yajin'></image>
+  <text class='wenben'>押金充值</text>
+</view>
+<!-- <image src='/images/renzhengjiantou.png' class='jiantou'></image> -->
+<view class='renzhengchenggong'>
+  <image src='/images/weirenzhengchenggong.png' class='zuihou'></image>
+  <text class='wenben'>认证成功</text>
+</view>
+</view>
+
+<view style="height: 300px; width: 300px;" class='yanzhengshouji'>
+
+<!-- <text style='color:gray;margin-left:40rpx'>验证码登录</text>
+<view class="person-line"></view> -->
+<view class='wen'>请输入手机号码</view>
+<input placeholder="请输入手机号码" type="number" maxlength="11" bindinput="inputPhoneNum"  class='ziti'></input>
+<view class='section'>
+<input placeholder="请输入验证码" type="number"  maxlength="4" bindinput="addCode" class='ziti'/>
+
+<button size="mini" type="default"   class='form-code-btn' bindtap='sendCode' style='color:{{color}}; border-color: {{color}};background-color:#FFF;' disabled="{{disabled}}">{{getCode}}</button>
+</view>
+<view class='tongyi'>
+<radio-group bindchange="radioChange">
+<radio bindtap='radioClick' checked="{{radioCheck}}"/>
+</radio-group>
+
+<text class="yonghu">我已经同意并接受《用户服务协议》</text>
+
+</view>
+<!-- <view class='section'>
+<image src="/images/shoujihaoma.png" class='img1'></image>
+<input placeholder="请输入手机号码" type="number" maxlength="11" bindinput="inputPhoneNum"  class='ziti'/>
+</view> -->
+<!-- <view class='section'>
+<image src="/images/yanzhengma.png" class='img1'></image>
+<input placeholder="短信验证码" type="number"  maxlength="4" bindinput="addCode" class='ziti'/>
+<button size="mini" type="default"   class='form-code-btn' bindtap='sendCode' style='color:{{color}}; border-color: {{color}};background-color:#FFF;margin-left: 0rpx' disabled="{{disabled}}">{{getCode}}</button> -->
+<!-- </view>
+
+
+
+<view class="tui-content"> -->
+ 
+ 
+      <button class='juli'  bindtap='xiaoyan' >验证手机</button>
+    
+</view>

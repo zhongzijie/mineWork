@@ -1,0 +1,46 @@
+/* pages/kaishiyuding/kaishiyuding.wxss */
+.section{
+   /* background:#CABBC7; */
+   display: inline-block;
+   margin:20rpx; 
+   margin-left: 80rpx;
+   padding:20rpx;
+   width:210rpx;
+   height: 30rpx;
+   border: 1rpx solid black;
+   
+}
+.section2{
+   /* background:#CABBC7; */
+   display: inline-block;
+   margin:20rpx; 
+   padding:20rpx;
+   width:210rpx;
+   height: 30rpx;
+   border: 1rpx solid black;
+   
+}
+.queding{
+  color: gray;
+}
+
+.queding{
+  margin: 90rpx;
+}
+.section__title{
+  margin-left: 90rpx;
+  margin-top: 100rpx;
+  color: gray;
+}
+.jieshu{
+  margin-left: 90rpx;
+  margin-top: 100rpx;
+   color: gray;
+
+}
+.picker{
+  color: gray;
+}
+/* .queding{
+  color: gray;
+} */

@@ -1,0 +1,15 @@
+/* pages/we/we.wxss */
+.lo{
+  width: 290rpx;
+  height: 290rpx;
+ 
+  /* border-radius: 100rpx; */
+  background-color: #ffffff;
+}
+
+.box2{
+  width: 70%;
+}
+.text-item{
+ color: gray;
+}

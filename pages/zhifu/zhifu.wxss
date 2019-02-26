@@ -1,0 +1,33 @@
+/* pages/zhifu/zhifu.wxss */
+.img{
+  margin-top: 40rpx;
+  margin-left: 40%;
+  width: 150rpx;
+  height: 150rpx;
+}
+.wenben{
+  color: gray;
+  margin-left: 42.5%;
+}
+
+.wenben1{
+  color: gray;
+  margin-left: 20rpx;
+  margin-top:20rpx;
+}
+
+.person-line {
+  width: 100%;
+  height: 2rpx;
+  background: lightgray;
+  margin-left: 20rpx;
+}
+.zhifu{
+  color: white;
+  background-color: #3CA7BD;
+   margin-top: 40%;
+   margin-left: 20rpx;
+   margin-right: 20rpx;
+   border-radius: 80rpx;
+  
+}

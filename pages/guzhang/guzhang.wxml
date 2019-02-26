@@ -1,0 +1,31 @@
+<!--pages/guzhang/guzhang.wxml   auto-height-->
+<textarea placeholder="请输入文字"  class='textarea-list'  ></textarea>
+<view class='imglist'>
+  <view class='detail_item'>
+    <image src='/images/mensuo.png' class='img-item'></image>
+    <text class='text-list'>门锁</text>
+  </view> 
+  <view class='detail_item'>
+    <image src='/images/pingmu.png' class='img-item'></image>
+    <text class='text-list'>屏幕</text>
+  </view>
+  <view class='detail_item'>
+    <image src='/images/kaimen.png' class='img-item'></image>
+    <text class='text-list'>开门</text>
+  </view>
+  <view class='detail_item'>
+    <image src='/images/wangluo.png' class='img-item wl'></image>
+    <text class='text-list'>网络</text>
+  </view>
+  <!-- <view class='detail_item'>
+    <image src='/images/paizhao.png' class='img-item'></image>
+    <text class='text-list'>拍照</text>
+  </view> -->
+</view>
+<view class='paiview'>
+    <image src='/images/paizhao.png' class='paipai' bindtap='paizhao'></image>
+    <text class='text-paipai'>拍照</text>
+  </view>
+<button class='shangchuang-btn' class='shangchuang' bindtap='xuantu'>上传</button>
+
+

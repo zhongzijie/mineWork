@@ -1,0 +1,7 @@
+<!--pages/tishi/tishi.wxml-->
+<!-- <text>
+
+</text> -->
+
+<view class='top'><text class='wenzi'>Q:如何使用？</text></view>
+<view class='bottom'><text class='wenzi'>A:首页点击扫码按钮即可开锁取床归还。</text></view>

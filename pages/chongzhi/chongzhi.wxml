@@ -1,0 +1,6 @@
+<!--pages/chongzhi/chongzhi.wxml-->
+<view class='container'>
+  <text>充值金额：100元</text>
+</view>
+
+<button class='dianjichongzhi'>充值</button>

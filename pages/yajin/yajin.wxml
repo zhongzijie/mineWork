@@ -1,0 +1,30 @@
+<!--pages/yajin/yajin.wxml-->
+<view class='renzheng'>
+<view class='shoujirenzheng'>
+  <image src='/images/weirenzhengshouji.png' class='shouji'></image>
+  <text class='wenben'>手机认证</text>
+</view>
+<view class='yanjinchongzhi'>
+  <image src='/images/yiyajin.png' class='yajin'></image>
+  <text class='wenben'>押金充值</text>
+</view>
+<view class='renzhengchenggong'>
+  <image src='/images/weirenzhengchenggong.png' class='zuihou'></image>
+  <text class='wenben'>认证成功</text>
+</view>
+</view>
+
+
+<view  >
+
+    <view style="height: 300px; width: 300px;" class='test'>
+     <text style="color:gray;">充值金额</text>
+     <view class="person-line"></view>
+      <text class='tongyi'>199元</text>
+      <text class='wenzi'>申请押金退还三个工作日内到达你的账户</text>
+      <text class='wenzi'>点击“我的钱包”查看</text>
+      <text class='wenzi  juli'>康互科技不会以任何方式向你索要账户和密码</text>
+      <button style="color:white; background-color: #3CA7BD;" bindtap='zhifuyajin'>缴纳押金</button>
+    
+    </view>
+</view> 

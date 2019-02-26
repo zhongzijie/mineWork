@@ -1,0 +1,11 @@
+/* pages/tishi/tishi.wxss */
+.wenzi{
+  font-size:5vw;
+  margin-left: 40rpx;
+  color: grey;
+}
+.top{
+  margin-top: 80rpx;
+  margin-bottom: 10rpx;
+  
+}
